@@ -1,0 +1,87 @@
+*{
+  margin:0; padding:0;
+}
+body{
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Poppins', sans-serif;
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-size:18px;
+  background-color:#DEE2E6;
+  overflow-x:hidden;
+  bakground-color:red;
+}
+.fixed-page-sembako{
+  margin-top:-3%;
+  margn-top:-50px;
+}
+.searchSembako{
+  float:left;
+  margin-top:-50px;
+  position:fixed;
+  white-space:nowrap;
+  width:30%;
+  backgound-color:red;
+  height:30px;
+  outline:none;
+  border:0.5px solid #347acf;
+  padding:5px 5px 5px 5px;
+  z-ndex:3;
+  border-radius:3px;
+}
+.buttonSembako{
+  margin-top:-50px;
+  z-idex:3;
+  position:absolute;
+  border:none;
+  margin-left:265px;
+}
+.fixed-page-sembako .fa-magnifying-glass{
+  argin-top:-800px;
+  border-radius:3px;
+  padding:7px;
+  background-color:#347acf;
+  font-size:28px;
+  color:snow;
+}
+::placeholder{
+  font-size:22px;
+    font-family: 'Montserrat', sans-serif;
+  font-family: 'Poppins', sans-serif;
+  font-family: 'PT Sans Narrow', sans-serif;
+}
+.tableClass{
+  width:100%;
+  margin-top:10%;
+  border-radius:3px;
+  overflow-x:hidden;
+  height:1000px;
+}
+
+.tableClass, table{
+  width:100%;
+  height:1000px;
+  marin-top:7%;
+  text-align:center;
+  background-color:snow;
+  border-collapse:collapse;
+}
+.tableClass thead{
+  width:100%;
+  white-space:nowrap;
+  background:linear-gradient(to right,#4CC9F0,#4361EE);
+  border-bottom:1px solid red;
+  color:snow;
+  position:sticky;
+  top:0;
+  z-index:1;
+}
+.tableClass table th{
+  margin-top:-20px;
+  padding:20px 10px;
+}
+.tableClass table,td{
+  padding:15px 10px;
+}
+.tableClass table a{
+  color:red;
+}
